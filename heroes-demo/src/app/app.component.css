@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-align: center;
+    width: 20em;
+    color: #fff;
+    background-color: #3f525c;
+    text-decoration: none;
+    line-height: 3em;
+    height: 3em;
+}
+
+nav a:hover {
+    transition: all 0.3s ease;
+    background-color: #eee;
+    color: #607d8b;
+}
